@@ -1,0 +1,90 @@
+
+.space25{
+    width: 25px;
+}
+.space50{
+    width: 50px;
+}
+.space100{
+    width: 100px;
+}
+.space200{
+    width: 200px;
+}
+.space300{
+    width: 300px;
+}
+
+.m35{
+    margin-left: 35%;
+}
+
+
+.buttonW{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2404AA;
+    background-color: white;
+    border: #3139FB solid 2px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.buttonB{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #2404AA;
+    border: #2404AA solid 2px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+}
+.left-div{
+    float:left;
+}
+
+.right-div{
+    float: right;
+    margin-left: 35.5%;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+}
+
+header {
+    background-image: url('../img/tlo.jpg');
+    background-size: cover;
+    color: white;
+    padding: 15px;
+    border-bottom: #3139FB dotted 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+header h1 {
+    margin: 0;
+}
