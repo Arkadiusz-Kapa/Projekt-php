@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('../img/tlo.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+.buttonW{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2404AA;
+    background-color: white;
+    border: #3139FB solid 2px;
+    text-decoration: none;
+    margin: 10px; 
+    cursor: pointer;
+}
+
+.buttonB{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #2404AA;
+    border: #2404AA solid 2px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+    
+    flex-direction: column;
+}
+
+
+header h1 {
+    margin: 0;
+}
+main {
+    flex: 1;
+    padding-bottom: 100px;
+}
